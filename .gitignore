@@ -1,0 +1,64 @@
+# Temporary files
+uploads/*
+!uploads/.gitkeep
+decrypted/*
+!decrypted/.gitkeep
+
+# Configuration files (generated during installation)
+config/config.php
+config/installed.txt
+config/.htaccess
+
+# Logs
+*.log
+error.log
+access.log
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# PHP session files
+sess_*
+
+# Cache files
+cache/
+tmp/
+temp/
+
+# OS generated files
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Development files
+.env
+.env.local
+.env.development
+.env.production
+
+# Dependencies (if using Composer)
+vendor/
+composer.lock
+
+# Node modules (if using npm)
+node_modules/
+package-lock.json
+
+# Build files
+dist/
+build/
